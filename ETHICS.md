@@ -8,7 +8,7 @@ The story comes from my own family's coffee ceremony tradition. I showed the fil
 
 ## Labelling
 
-- The film ends with a 3 second card: "Made by Mahlet. A family story."
+- The film ends with a 3 second card: "Made with AI. A family story."
 - The post is published with the platform's AI-content disclosure switched on.
 - Watermarks and provenance metadata added by the tools are left in place.
 
