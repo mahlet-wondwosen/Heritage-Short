@@ -1,87 +1,87 @@
 1
-00:00:00,400 --> 00:00:05,871
+00:00:00,200 --> 00:00:05,671
 At my grandmother's house, the day always began before the sun.
 
 2
-00:00:07,400 --> 00:00:10,875
+00:00:06,200 --> 00:00:09,675
 She spreads fresh grass on the floor.
 
 3
-00:00:10,875 --> 00:00:12,659
+00:00:09,675 --> 00:00:11,459
 It is how she says:
 
 4
-00:00:12,659 --> 00:00:14,631
+00:00:11,459 --> 00:00:13,431
 you are welcome here.
 
 5
-00:00:15,331 --> 00:00:18,438
+00:00:13,531 --> 00:00:16,638
 Green beans go onto the pan.
 
 6
-00:00:18,438 --> 00:00:24,762
+00:00:16,638 --> 00:00:22,962
 Smoke rises, and the whole street knows coffee is coming.
 
 7
-00:00:25,462 --> 00:00:31,250
+00:00:23,062 --> 00:00:28,850
 She carries the smoke around the room, slowly.
 
 8
-00:00:31,250 --> 00:00:34,773
+00:00:28,850 --> 00:00:32,373
 Nothing here is ever rushed.
 
 9
-00:00:35,473 --> 00:00:39,131
+00:00:32,473 --> 00:00:36,131
 Then the beans are ground by hand.
 
 10
-00:00:39,131 --> 00:00:42,144
+00:00:36,131 --> 00:00:39,144
 I used to count the strokes.
 
 11
-00:00:42,844 --> 00:00:46,788
+00:00:39,473 --> 00:00:43,417
 The clay pot sits on the charcoal.
 
 12
-00:00:46,788 --> 00:00:47,715
+00:00:43,417 --> 00:00:44,344
 We wait.
 
 13
-00:00:47,715 --> 00:00:51,195
+00:00:44,344 --> 00:00:47,824
 Waiting is part of the coffee.
 
 14
-00:00:51,895 --> 00:00:59,286
+00:00:47,924 --> 00:00:55,315
 She pours in one long, thin line, and not one drop spills.
 
 15
-00:00:59,986 --> 00:01:02,949
+00:00:55,415 --> 00:00:58,378
 Neighbours come, one by one.
 
 16
-00:01:02,949 --> 00:01:04,641
+00:00:58,378 --> 00:01:00,070
 Nobody asks why.
 
 17
-00:01:04,641 --> 00:01:09,297
+00:01:00,070 --> 00:01:04,726
 The smoke of frankincense is the invitation.
 
 18
-00:01:09,997 --> 00:01:11,745
+00:01:04,826 --> 00:01:06,574
 Three rounds.
 
 19
-00:01:11,745 --> 00:01:18,468
+00:01:06,574 --> 00:01:13,297
 The first abol, the second tuna, the third bereka.
 
 20
-00:01:19,168 --> 00:01:22,710
+00:01:13,397 --> 00:01:16,939
 I have learned much since.
 
 21
-00:01:22,710 --> 00:01:28,024
+00:01:16,939 --> 00:01:22,253
 But I still know the sound of patience:
 
 22
-00:01:28,024 --> 00:01:31,839
+00:01:22,253 --> 00:01:26,068
 a clay pot, quietly singing.

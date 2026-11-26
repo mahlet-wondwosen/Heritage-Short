@@ -5,8 +5,8 @@ import re
 
 from pipeline import narration
 
-NARRATION_DELAY_S = 0.4   # narration starts a moment after the cut
-TAIL_S = 0.6              # breathing room after the last word
+NARRATION_DELAY_S = 0.2   # narration starts a moment after the cut
+TAIL_S = 0.2              # breathing room after the last word
 
 
 def plan(sb: dict) -> dict:

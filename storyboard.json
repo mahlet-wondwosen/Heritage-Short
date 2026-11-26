@@ -22,7 +22,7 @@
   "shots": [
     {
       "id": "s01",
-      "duration_s": 7,
+      "duration_s": 6,
       "shot_size": "extreme_wide",
       "reason": "Establishes the place and the hour: a quiet courtyard house before sunrise.",
       "shows_character": false,
