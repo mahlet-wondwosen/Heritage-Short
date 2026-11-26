@@ -1,0 +1,213 @@
+{
+  "timeline": {
+    "shots": [
+      {
+        "id": "s01",
+        "start": 0.0,
+        "length": 7,
+        "narr_start": 0.4,
+        "narr_dur": 5.171
+      },
+      {
+        "id": "s02",
+        "start": 7.0,
+        "length": 7.931,
+        "narr_start": 7.4,
+        "narr_dur": 6.931
+      },
+      {
+        "id": "s03",
+        "start": 14.931,
+        "length": 10.131,
+        "narr_start": 15.331,
+        "narr_dur": 9.131
+      },
+      {
+        "id": "s04",
+        "start": 25.062,
+        "length": 10.011,
+        "narr_start": 25.462,
+        "narr_dur": 9.011
+      },
+      {
+        "id": "s05",
+        "start": 35.073,
+        "length": 7.371,
+        "narr_start": 35.473,
+        "narr_dur": 6.371
+      },
+      {
+        "id": "s06",
+        "start": 42.444,
+        "length": 9.051,
+        "narr_start": 42.844,
+        "narr_dur": 8.051
+      },
+      {
+        "id": "s07",
+        "start": 51.495,
+        "length": 8.091,
+        "narr_start": 51.895,
+        "narr_dur": 7.091
+      },
+      {
+        "id": "s08",
+        "start": 59.586,
+        "length": 10.011,
+        "narr_start": 59.986,
+        "narr_dur": 9.011
+      },
+      {
+        "id": "s09",
+        "start": 69.597,
+        "length": 9.171,
+        "narr_start": 69.997,
+        "narr_dur": 8.171
+      },
+      {
+        "id": "s10",
+        "start": 78.768,
+        "length": 13.371,
+        "narr_start": 79.168,
+        "narr_dur": 12.371
+      }
+    ],
+    "end_card_start": 92.139,
+    "end_card_length": 3,
+    "total": 95.139
+  },
+  "subtitles": [
+    {
+      "shot": "s01",
+      "start": 0.4,
+      "end": 5.871,
+      "text": "At my grandmother's house, the day always began before the sun."
+    },
+    {
+      "shot": "s02",
+      "start": 7.4,
+      "end": 10.875,
+      "text": "She spreads fresh grass on the floor."
+    },
+    {
+      "shot": "s02",
+      "start": 10.875,
+      "end": 12.659,
+      "text": "It is how she says:"
+    },
+    {
+      "shot": "s02",
+      "start": 12.659,
+      "end": 14.631,
+      "text": "you are welcome here."
+    },
+    {
+      "shot": "s03",
+      "start": 15.331,
+      "end": 18.438,
+      "text": "Green beans go onto the pan."
+    },
+    {
+      "shot": "s03",
+      "start": 18.438,
+      "end": 24.762,
+      "text": "Smoke rises, and the whole street knows coffee is coming."
+    },
+    {
+      "shot": "s04",
+      "start": 25.462,
+      "end": 31.25,
+      "text": "She carries the smoke around the room, slowly."
+    },
+    {
+      "shot": "s04",
+      "start": 31.25,
+      "end": 34.773,
+      "text": "Nothing here is ever rushed."
+    },
+    {
+      "shot": "s05",
+      "start": 35.473,
+      "end": 39.131,
+      "text": "Then the beans are ground by hand."
+    },
+    {
+      "shot": "s05",
+      "start": 39.131,
+      "end": 42.144,
+      "text": "I used to count the strokes."
+    },
+    {
+      "shot": "s06",
+      "start": 42.844,
+      "end": 46.788,
+      "text": "The clay pot sits on the charcoal."
+    },
+    {
+      "shot": "s06",
+      "start": 46.788,
+      "end": 47.715,
+      "text": "We wait."
+    },
+    {
+      "shot": "s06",
+      "start": 47.715,
+      "end": 51.195,
+      "text": "Waiting is part of the coffee."
+    },
+    {
+      "shot": "s07",
+      "start": 51.895,
+      "end": 59.286,
+      "text": "She pours in one long, thin line, and not one drop spills."
+    },
+    {
+      "shot": "s08",
+      "start": 59.986,
+      "end": 62.949,
+      "text": "Neighbours come, one by one."
+    },
+    {
+      "shot": "s08",
+      "start": 62.949,
+      "end": 64.641,
+      "text": "Nobody asks why."
+    },
+    {
+      "shot": "s08",
+      "start": 64.641,
+      "end": 69.297,
+      "text": "The smoke of frankincense is the invitation."
+    },
+    {
+      "shot": "s09",
+      "start": 69.997,
+      "end": 71.745,
+      "text": "Three rounds."
+    },
+    {
+      "shot": "s09",
+      "start": 71.745,
+      "end": 78.468,
+      "text": "The first abol, the second tuna, the third bereka."
+    },
+    {
+      "shot": "s10",
+      "start": 79.168,
+      "end": 82.71,
+      "text": "I have learned much since."
+    },
+    {
+      "shot": "s10",
+      "start": 82.71,
+      "end": 88.024,
+      "text": "But I still know the sound of patience:"
+    },
+    {
+      "shot": "s10",
+      "start": 88.024,
+      "end": 91.839,
+      "text": "a clay pot, quietly singing."
+    }
+  ]
+}

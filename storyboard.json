@@ -1,0 +1,217 @@
+{
+  "title": "Buna: The Sound of Patience",
+  "logline": "A grandchild remembers the morning coffee ceremony at their grandmother's house, and the patience it quietly taught.",
+  "audience": "My family and followers in Ethiopia and the diaspora, watching on a phone, who know the ceremony and may be far from home.",
+  "intent": "They should feel warmth and homesickness, and recognise patience and welcome as the real gifts of the ceremony.",
+  "language": {
+    "narration": "am-ET",
+    "subtitles": "en",
+    "tts_voice_style": "Calm, warm, unhurried, like a grown grandchild remembering quietly."
+  },
+  "style_block": "Warm hand-painted gouache illustration, soft film grain, earthy palette of terracotta, cream, deep green and coffee brown, golden morning light, gentle depth of field, vertical composition with the subject centered.",
+  "negative_block": "no text, no letters, no logos, no photorealistic faces, no extra fingers",
+  "character": {
+    "name": "Grandmother",
+    "description": "An elderly Ethiopian woman in a white cotton habesha kemis with a thin woven border and a light netela on her shoulders, grey hair partly covered, always seen from behind, in profile or in silhouette, never facing the camera.",
+    "reference_image": null
+  },
+  "formats": [
+    "9:16",
+    "16:9"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "duration_s": 7,
+      "shot_size": "extreme_wide",
+      "reason": "Establishes the place and the hour: a quiet courtyard house before sunrise.",
+      "shows_character": false,
+      "image_prompt": "A small whitewashed courtyard house with a tin roof and a tall eucalyptus tree at first light, pale mist on the ground, one warm lit doorway.",
+      "motion_prompt": "Mist drifts slowly across the ground, the doorway light flickers gently.",
+      "camera": "push_in",
+      "seed": 1101,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "በአያቴ ቤት ሁልጊዜ ቀኑ የሚጀምረው ፀሐይ ሳትወጣ ነው።",
+        "text_en": "At my grandmother's house, the day always began before the sun."
+      }
+    },
+    {
+      "id": "s02",
+      "duration_s": 7,
+      "shot_size": "close",
+      "reason": "The grass on the floor is the first sign of welcome and the first image of the ritual.",
+      "shows_character": false,
+      "image_prompt": "Close view of fresh green grass and small yellow flowers spread over a clay floor, a low wooden stool and a tray of small white cups just visible at the edge.",
+      "motion_prompt": "A few blades of grass sway slightly, soft light moves across the floor.",
+      "camera": "pan_right",
+      "seed": 1102,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "አዲስ ሳር ወለሉ ላይ ትጎዘጉዛለች። «እንኳን ደህና መጣችሁ» የምትለው በዚህ መንገድ ነው።",
+        "text_en": "She spreads fresh grass on the floor. It is how she says: you are welcome here."
+      }
+    },
+    {
+      "id": "s03",
+      "duration_s": 7,
+      "shot_size": "close",
+      "reason": "Roasting is the moment the neighbourhood smells the coffee; it sets the senses of the film.",
+      "shows_character": false,
+      "image_prompt": "Green coffee beans turning dark brown on a black flat roasting pan over glowing charcoal, thin smoke rising.",
+      "motion_prompt": "Smoke rises and curls slowly, the charcoal glows and dims.",
+      "camera": "static",
+      "seed": 1103,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ጥሬ ቡና በብረት በምጣድ ላይ ይቆላል። ጭሱ ሲነሳ ሰፈሩ ሁሉ ቡና እንደሚመጣ ያውቃል።",
+        "text_en": "Green beans go onto the pan. Smoke rises, and the whole street knows coffee is coming."
+      }
+    },
+    {
+      "id": "s04",
+      "duration_s": 7,
+      "shot_size": "medium",
+      "reason": "Introduces the grandmother once, from behind, carrying the smoke slowly: patience in her movement.",
+      "shows_character": true,
+      "image_prompt": "The grandmother seen from behind, walking slowly through a dim warm room carrying a roasting pan with rising smoke toward low stools.",
+      "motion_prompt": "She moves slowly forward, the smoke trails behind her.",
+      "camera": "push_in",
+      "seed": 1104,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ጭሱን በክፍሉ ውስጥ በዝግታ ታዞራለች። እዚህ ምንም ነገር በችኮላ አይደረግም።",
+        "text_en": "She carries the smoke around the room, slowly. Nothing here is ever rushed."
+      }
+    },
+    {
+      "id": "s05",
+      "duration_s": 7,
+      "shot_size": "insert",
+      "reason": "Grinding is the rhythm shot: it gives the score a pulse and the narrator a childhood memory.",
+      "shows_character": false,
+      "image_prompt": "A wooden mortar and a long iron pestle with dark roasted beans, a white sleeve just visible at the edge of the frame.",
+      "motion_prompt": "The pestle rises and falls slowly in a steady rhythm, a few beans shift.",
+      "camera": "static",
+      "seed": 1105,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ከዚያ ቡናው በእጅ ይወቀጣል። ምቶቹን እቆጥር ነበር።",
+        "text_en": "Then the beans are ground by hand. I used to count the strokes."
+      }
+    },
+    {
+      "id": "s06",
+      "duration_s": 7,
+      "shot_size": "close",
+      "reason": "The jebena on the charcoal is the emotional centre: waiting is the lesson.",
+      "shows_character": false,
+      "image_prompt": "A black clay jebena with a long neck on glowing charcoal, steam curling from its spout, soft morning light from a doorway.",
+      "motion_prompt": "Steam curls up from the spout, the charcoal glows softly.",
+      "camera": "static",
+      "seed": 1106,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ጀበናው በከሰል እሳት ላይ ይታዳል። እንጠብቃለን። መጠበቅ የቡናው አካል ነው።",
+        "text_en": "The clay pot sits on the charcoal. We wait. Waiting is part of the coffee."
+      }
+    },
+    {
+      "id": "s07",
+      "duration_s": 7,
+      "shot_size": "medium_close",
+      "reason": "The long steady pour shows her skill and calm; it is the visual peak of the ritual.",
+      "shows_character": false,
+      "image_prompt": "A clay jebena pouring a thin stream of coffee into a row of small white cups on a tray, steam rising, warm light.",
+      "motion_prompt": "A thin steady stream flows into the cups, steam rises gently.",
+      "camera": "push_in",
+      "seed": 1107,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ቡናውን በአንድ ረጅም ቀጭን መስመር ትከዳዋለች፤ አንድ ጠብታም አይፈስም።",
+        "text_en": "She pours in one long, thin line, and not one drop spills."
+      }
+    },
+    {
+      "id": "s08",
+      "duration_s": 8,
+      "shot_size": "wide",
+      "reason": "Neighbours arriving in silhouette shows the ceremony as community, not just coffee.",
+      "shows_character": true,
+      "image_prompt": "A warm room with incense smoke curling in golden light, the grandmother seated in profile at the tray, two or three neighbours as soft silhouettes arriving at the doorway.",
+      "motion_prompt": "Incense smoke curls through the light, a silhouette steps slowly into the doorway.",
+      "camera": "pan_left",
+      "seed": 1108,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ጎረቤቶች አንድ በአንድ ይመጣሉ። ማንም ለምን እንደመጣ አይጠይቅም። የእጣን ጭስ ግብዣ ነው።",
+        "text_en": "Neighbours come, one by one. Nobody asks why. The smoke of frankincense is the invitation."
+      }
+    },
+    {
+      "id": "s09",
+      "duration_s": 8,
+      "shot_size": "close",
+      "reason": "Three cups and three rounds give the story its structure and the motif of blessing.",
+      "shows_character": false,
+      "image_prompt": "Three small white cups of coffee in a row on a tray with a few popcorn kernels, the light warmer and softer from left to right.",
+      "motion_prompt": "Steam rises from all three cups, the light shifts gently from cool to warm.",
+      "camera": "pan_right",
+      "seed": 1109,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ሦስት ዙር ነው። የመጀመሪያው አቦል፣ ሁለተኛው ቱና፣ ሦስተኛው በረካ።",
+        "text_en": "Three rounds. The first abol, the second tuna, the third bereka."
+      }
+    },
+    {
+      "id": "s10",
+      "duration_s": 8,
+      "shot_size": "wide",
+      "reason": "A quiet silhouette in the doorway light closes the memory and returns to the opening mood.",
+      "shows_character": true,
+      "image_prompt": "The grandmother in silhouette in a bright doorway, steam from a jebena in the foreground, golden morning light flooding the room.",
+      "motion_prompt": "Light brightens slowly, the steam drifts up and fades.",
+      "camera": "pull_out",
+      "seed": 1110,
+      "fallback": "ken_burns",
+      "narration": {
+        "text_native": "ከዚያ ወዲህ ብዙ ተምሬያለሁ። ግን የትዕግስትን ድምፅ አሁንም አውቀዋለሁ፤ በጸጥታ የምትዘምር ጀበና።",
+        "text_en": "I have learned much since. But I still know the sound of patience: a clay pot, quietly singing."
+      }
+    }
+  ],
+  "music": {
+    "instrumental": true,
+    "bpm": 68,
+    "key": "A minor",
+    "caption": "Slow warm instrumental, solo krar lyre with soft hand percussion and a quiet drone, gentle Ethiopian pentatonic mood, intimate and unhurried, no strong lead melody under speech.",
+    "candidates": 3,
+    "duration_s": 75,
+    "cues": [
+      {
+        "id": "c1",
+        "from_shot": "s01",
+        "to_shot": "s03",
+        "purpose": "Quiet drone and sparse notes: early morning, anticipation."
+      },
+      {
+        "id": "c2",
+        "from_shot": "s04",
+        "to_shot": "s07",
+        "purpose": "Gentle pulse from the krar and soft percussion, matching grinding and pouring."
+      },
+      {
+        "id": "c3",
+        "from_shot": "s08",
+        "to_shot": "s10",
+        "purpose": "Theme returns warmer and slower, then resolves into near silence."
+      }
+    ]
+  },
+  "end_card": {
+    "duration_s": 3,
+    "text_en": "made by mahlet. A family story.",
+    "text_native": "በ ማህሌት የተሰራ። የቤተሰብ ታሪክ።"
+  }
+}

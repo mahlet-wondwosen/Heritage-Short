@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/heritage-short/storyboard.schema.json",
+  "title": "Heritage Short storyboard",
+  "description": "The contract between every pipeline stage. Validated before each run.",
+  "type": "object",
+  "required": ["title", "logline", "audience", "intent", "language", "style_block", "character", "formats", "shots", "music", "end_card"],
+  "additionalProperties": false,
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "logline": { "type": "string", "minLength": 10 },
+    "audience": { "type": "string", "minLength": 10 },
+    "intent": { "type": "string", "minLength": 10 },
+    "language": {
+      "type": "object",
+      "required": ["narration", "subtitles", "tts_voice_style"],
+      "additionalProperties": false,
+      "properties": {
+        "narration": { "type": "string", "description": "BCP-47 code, for example am-ET" },
+        "subtitles": { "type": "string", "description": "BCP-47 code, for example en" },
+        "tts_voice_style": { "type": "string", "description": "Plain-language style instruction for TTS" }
+      }
+    },
+    "style_block": { "type": "string", "minLength": 10, "description": "Added to every image prompt" },
+    "negative_block": { "type": "string" },
+    "character": {
+      "type": "object",
+      "required": ["name", "description"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string", "minLength": 10, "description": "Added to every prompt that shows her" },
+        "reference_image": { "type": ["string", "null"] }
+      }
+    },
+    "formats": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "enum": ["9:16", "16:9"] },
+      "uniqueItems": true
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 12,
+      "items": { "$ref": "#/$defs/shot" }
+    },
+    "music": {
+      "type": "object",
+      "required": ["instrumental", "bpm", "key", "caption", "candidates", "duration_s", "cues"],
+      "additionalProperties": false,
+      "properties": {
+        "instrumental": { "type": "boolean" },
+        "bpm": { "type": "integer", "minimum": 40, "maximum": 200 },
+        "key": { "type": "string" },
+        "caption": { "type": "string", "minLength": 10 },
+        "candidates": { "type": "integer", "minimum": 1, "maximum": 8 },
+        "duration_s": { "type": "number", "minimum": 30, "maximum": 120 },
+        "cues": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id", "from_shot", "to_shot", "purpose"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string" },
+              "from_shot": { "type": "string" },
+              "to_shot": { "type": "string" },
+              "purpose": { "type": "string", "minLength": 5 }
+            }
+          }
+        }
+      }
+    },
+    "end_card": {
+      "type": "object",
+      "required": ["duration_s", "text_en", "text_native"],
+      "additionalProperties": false,
+      "properties": {
+        "duration_s": { "type": "number", "minimum": 2, "maximum": 4 },
+        "text_en": { "type": "string" },
+        "text_native": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "shot": {
+      "type": "object",
+      "required": ["id", "duration_s", "shot_size", "reason", "image_prompt", "motion_prompt", "camera", "seed", "narration"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^s[0-9]{2}$" },
+        "duration_s": { "type": "number", "minimum": 3, "maximum": 10 },
+        "shot_size": {
+          "enum": ["extreme_wide", "wide", "medium", "medium_close", "close", "extreme_close", "insert"]
+        },
+        "reason": { "type": "string", "minLength": 15, "description": "Why this shot exists" },
+        "shows_character": { "type": "boolean", "default": false },
+        "image_prompt": { "type": "string", "minLength": 15 },
+        "motion_prompt": { "type": "string", "minLength": 10, "description": "Motion and camera only" },
+        "camera": { "enum": ["static", "push_in", "pull_out", "pan_left", "pan_right", "tilt_up", "tilt_down", "orbit"] },
+        "seed": { "type": "integer", "minimum": 0 },
+        "fallback": { "enum": ["ken_burns", "hold"], "default": "ken_burns" },
+        "narration": {
+          "type": "object",
+          "required": ["text_native", "text_en"],
+          "additionalProperties": false,
+          "properties": {
+            "text_native": { "type": "string", "minLength": 3 },
+            "text_en": { "type": "string", "minLength": 3 }
+          }
+        }
+      }
+    }
+  }
+}
