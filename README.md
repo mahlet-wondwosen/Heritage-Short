@@ -1,6 +1,6 @@
 # Buna: The Sound of Patience
 
-A 76 second short film about a grandmother's coffee ceremony, narrated in Amharic with English subtitles, made by a pipeline in code. One file, `storyboard.json`, is the contract between every stage. Change one shot in it and only that shot is regenerated.
+An 89 second short film about a grandmother's coffee ceremony, narrated in Amharic with English subtitles, made by a pipeline in code. One file, `storyboard.json`, is the contract between every stage. Change one shot in it and only that shot is regenerated.
 
 ## Run it (from a clean clone)
 

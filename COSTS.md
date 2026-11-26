@@ -1,30 +1,45 @@
 # COSTS
 
-## Measured latency (from runs.jsonl)
+Everything ran on free tiers, so the cash I paid was **$0**. The numbers below come from `runs.jsonl`.
 
-Run `python3 -m pipeline.cli costs` and paste the table it prints here.
+## Measured latency per stage
 
-(paste the table)
+Produced by `python3 -m pipeline.cli costs`:
 
-## GPU minutes (Kaggle or Colab)
+```
+(paste the table printed by the command)
+```
 
-| Job | Model | Resolution | Clips | GPU minutes | Notes |
-|---|---|---|---|---|---|
-| Moving shots | none | n/a | 0 | 0 | I used Ken Burns motion on the keyframes with FFmpeg on my laptop, so no GPU was rented |
-| Music | ACE-Step 1.5 (hosted) | n/a | 2 to 3 candidates | not measured | Free hosted tool, no GPU time billed to me |
+Cache hits are calls that were skipped because the input hash had not changed. They cost nothing and are counted separately.
 
-## Free-tier limits I actually found (check each at the time)
+## GPU minutes
 
-- Gemini API TTS: (write the limit you saw in your Google AI Studio quota page, or "did not reach a limit")
-- Cloudflare Workers AI daily allowance: (write what your dashboard showed, or "did not reach a limit")
-- Kaggle weekly GPU hours: not used
+| Job | Model | Clips | GPU minutes | Notes |
+|---|---|---|---|---|
+| Moving shots | none (FFmpeg Ken Burns) | 0 | 0 | I did not use a GPU for video. Wan 2.2 was not run. |
+| Music | ACE-Step 1.5, hosted | 3 candidates | not measured | I used a free hosted tool, so no GPU time was billed to me. |
+
+## Free-tier limits I actually met
+
+- **Gemini TTS:** I hit the quota once. `runs.jsonl` has a `429 RESOURCE_EXHAUSTED` error for the narration of shot s07, and the retry logic succeeded about a minute later. The free tier covers this model for input and output on the standard tier.
+- **Cloudflare Workers AI:** the free allowance is 10,000 Neurons a day. `runs.jsonl` shows no image call failing, so I did not hit it.
+- **Kaggle:** not used.
 
 ## List-price equivalent
 
-For each hosted call, look up the published price today and write the arithmetic, for example:
+Published prices, checked on 26 November 2026:
 
-- Gemini TTS: (number of narration calls from runs.jsonl) x (price per call or per character) = (result)
-- FLUX schnell on Cloudflare: (number of images from runs.jsonl) x (price per image) = (result)
-- ACE-Step: free hosted tool, 0
+- FLUX.1 schnell on Cloudflare Workers AI: $0.0000528 per 512x512 tile and $0.0001056 per step.
+- Gemini 2.5 Flash Preview TTS: $0.50 per 1M input tokens and $10.00 per 1M output (audio) tokens.
 
-Total actual cash spent: 0 (everything ran on free tiers).
+The arithmetic is printed by `python3 -m pipeline.pricing`:
+
+```
+(paste the three lines printed by the command)
+```
+
+Assumptions: images are 1024x1024 (4 tiles); text is about 4 characters per token; Gemini audio is about 32 tokens per second. ACE-Step on the hosted tool was free. FFmpeg is free.
+
+## Frontier comparison
+
+I had no access to a frontier lane (Omni Flash, Nano Banana, Lyria 3.5), so I made no comparison.
